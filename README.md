@@ -33,29 +33,29 @@ Solution: Because many online users may find it difficult to remember all their 
 
 ## Roles
 1. Software Developer: Anish Selar 
-Responsible for technical architecture 
-Responsible for setup and maintenance of server environment.  
-Responsible for full stack development 
+- Responsible for technical architecture 
+- Responsible for setup and maintenance of server environment.  
+- Responsible for full stack development 
 
  
 
 2. Software Developer: Vedant Amin 
-Responsible for setting up and maintaining a shared repository.  
-Responsible for setup and implementing User experience.  
-Responsible for full stack development. 
+- Responsible for setting up and maintaining a shared repository.  
+- Responsible for setup and implementing User experience.  
+- Responsible for full stack development. 
 
  
 
 3. Software Developer: Brandon Zachary 
-Responsible for User Interface / User Experience 
-Responsible for Use Across Multiple Platforms (Web Browsers) 
-Responsible for Incorporating/Creating Images, Graphics, Audio, etc. 
+- Responsible for User Interface / User Experience 
+- Responsible for Use Across Multiple Platforms (Web Browsers) 
+- Responsible for Incorporating/Creating Images, Graphics, Audio, etc. 
 
  
 
 4. Security Analyst: Chris Reckelhoff 
-Responsible for analyzing and implementing security measures 
-Responsible for monitoring network security issues 
-Responsible for penetration testing (SOC II Type 2) 
+- Responsible for analyzing and implementing security measures 
+- Responsible for monitoring network security issues 
+- Responsible for penetration testing (SOC II Type 2) 
 
 
