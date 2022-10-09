@@ -1,0 +1,46 @@
+html{
+    background-color: #eee;
+}
+
+.sidebar {
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: #eee;
+}
+    
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+    
+.body-text {
+    height: 400px;
+    margin-top: -1%;
+    margin-left: 25%;
+}
+
+table {
+    margin-top: 2em;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    border-radius: 30px;
+    background-color: white;
+    
+}
+
+table, th, td {
+    
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    padding: 1em;
+}
+
+button{
+    margin: 1px;
+}
