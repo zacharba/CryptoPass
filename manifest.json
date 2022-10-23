@@ -5,7 +5,7 @@
     "version": "0.1",
 
     "background.service_worker" : {
-        "scripts" : ["popup.js"],
+        "scripts" : ["popup.js", "index.js"],
         "persistent" : false
     },
 
