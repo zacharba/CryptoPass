@@ -4,11 +4,22 @@
     "description": "Manage your Accounts!",
     "version": "0.1",
 
+    "background.service_worker" : {
+        "scripts" : ["popup.js"],
+        "persistent" : false
+    },
+
     "action": {
       "default_popup": "popup.html"
     },
 
     "permissions": [
-        "tabs"
+        "tabs",
+        "activeTab"
+    ],
+
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
     ]
   }

@@ -1,29 +1,57 @@
-chrome.tabs.query({
-    active: true,
-    lastFocusedWindow: true
-}, function(tabs) {
-    var tab = tabs[0];
-    document.getElementById("curl").innerHTML = "Current Tab: " + (tab.url);
+chrome.tabs.query(
+    {
+        active: true,
+        currentWindow: true
+    },
+    ([currentTab]) => {
+        const url = new URL(currentTab.url);
+        const domain = url.hostname;
+
+        var curl = document.getElementById("curl")
+        if (curl) {
+            curl.innerHTML = (url);
+        }
+    }
+  );
+
+document.addEventListener('DOMContentLoaded', function() {
+    var accP = document.getElementById("accountPage");
+    if (accP) {
+        accP.addEventListener("click", handler);
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("accountPage").addEventListener("click", handler);
+    var newP = document.getElementById("newPopUp");
+    if (newP) {
+        newP.addEventListener("click", newpop);
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("newPopUp").addEventListener("click", newpop);
+    var addA = document.getElementById("addAccount");
+    if (addA) {
+        addA.addEventListener("click", addacc);
+    } 
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("back").addEventListener("click", return2Sender);
+    var back = document.getElementById("back");
+    if (back) {
+        back.addEventListener("click", return2Sender);
+    }    
 });
  
-function handler() {
+function handler(){
     window.open("cryptopass-Accounts.html", '_blank');
 }
 
 function newpop() {
     window.location.href="popupTest.html";
+}
+
+function addacc() {
+    window.location.href="addAccountPopUp.html";
 }
 
 function return2Sender(){
