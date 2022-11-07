@@ -6,6 +6,7 @@
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <link rel="stylesheet" href="accounts.css">
             <script type="text/javascript" src="popup.js"></script>
+            <script type="module" src="index.js"></script>
         </head>
 
         <body>
@@ -21,12 +22,16 @@
                 <form action="cryptopass-Add.html"><input type="submit" value="Add Account"/></form>
                 <div class="accountTable">
                     <table>
-                        <tr>
-                            <th>Website</th>
-                            <th>Status</th>
-                            <th>Username</th>
-                            <th>Actions</th>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th>Website</th>
+                                <th>Status</th>
+                                <th>Username</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="accountsT">
+                        </tbody>
                     </table>
                 </div>
             </div>
