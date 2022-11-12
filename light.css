@@ -1,0 +1,55 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    width: 40vh;
+    color: black;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titleHead {
+    display: flex;
+    padding: 10px;
+    background: #f4f4f4;
+    border-bottom: 1px solid lightgrey;
+}
+
+.titleHead img {
+    width: 15%
+}
+
+.titleHead h1 {
+    margin: 0 10px;
+    padding-top: 5px;
+}
+
+form {
+    text-align: center;
+    background: #fefefe;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+form .userInputs {
+    width: 75%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    outline: 2px solid rgb(201, 201, 201);
+    border: none;
+}
+
+.fa-solid {
+    font-size: 18px;
+    position: absolute;
+    color: rgb(201, 201, 201);
+    margin-top: 5px;
+    margin-left: -35px;
+    padding-left: 10px;
+    background-color: white;
+    outline-left: 1px solid rgb(201, 201, 201);
+}
+
+form .userInputs:hover {
+    outline: 2px solid lightblue;
+    transition: all 0.2s ease;
+}

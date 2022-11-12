@@ -5,12 +5,12 @@
     "version": "0.1",
 
     "background.service_worker" : {
-        "scripts" : ["popup.js", "index.js"],
+        "scripts" : ["popup.js"],
         "persistent" : false
     },
 
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "cryptopass-AddAccountPopup.html"
     },
 
     "permissions": [
