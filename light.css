@@ -53,3 +53,37 @@ form .userInputs:hover {
     outline: 2px solid lightblue;
     transition: all 0.2s ease;
 }
+
+.addAccButton {
+    float: left;
+    margin-left: 40px;
+    background: orange;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.addAccButton:hover {
+    background: rgb(255, 174, 22);
+}
+
+.backButton {
+    float: right;
+    margin-right: 40px;
+    background: rgb(224, 224, 224);
+    color: gray;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.backButton:hover {
+    background: rgb(182, 98, 98);
+    color: white;
+    transition: all 0.3s ease;
+}
