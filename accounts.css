@@ -207,6 +207,63 @@ nav:hover {
     background:rgb(250, 250, 250)
 }
 
+.form-container {
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width: 550px;
+    max-width: 550px;
+    min-width: 300px;
+    scroll-behavior: smooth;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+}
+
+.form-container p {
+    padding-bottom: 10px;
+}
+
+.form-container input {
+    margin-top: -25px;
+    padding: 10px;
+    width: 300px;
+    float: right;
+    outline: none;
+    border: none;
+    background:rgba( 0, 0, 0, 0.1 )
+}
+
+.form-container label {
+    margin-top: 20px;
+    display: block;
+}
+
+.form-container .submitButton {
+    bottom: 0;
+    float: left;
+    margin-left: 65%;
+    padding: 6px 4px 4px 6px;
+    color: white;
+    background: orange;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form-container .submitButton:hover {
+    background: rgb(255, 175, 25);
+}
+
+.cancelButton {
+    padding: 6px 4px 4px 6px;
+    font-size: 16px;
+    float: right;
+}
+
+
 /* Responsive  Table*/
 
 @media (max-width: 767px) {
@@ -274,11 +331,43 @@ nav:hover {
     .top_nav .search-container {
         display: none;
     }
-
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     .top_nav input[type=text] { 
         width: 150px;
     }
+
+    .form-container {
+        height: 60%;
+        width: 40%;
+        overflow: hidden;
+    }
+    
+    .form-container input {
+        float: left;
+        margin-bottom: 20px;
+        transform: translateY(30px);
+    }
+    
+    .form-container label {
+        float: left;
+    }
+    
+    .form-container p {
+        display: none;
+    }
+    
+    .form-container h3 {
+        padding-bottom: 10px;
+    }
+
+    .form-container .submitButton {
+        margin-left: 0;
+    }
+
+    .form-container .submitButton, .cancelButton {
+        margin-top: 40px;
+    }
+
 }
