@@ -49,11 +49,6 @@ form .userInputs {
     outline-left: 1px solid rgb(201, 201, 201);
 }
 
-form .userInputs:hover {
-    outline: 2px solid lightblue;
-    transition: all 0.2s ease;
-}
-
 .addAccButton {
     float: left;
     margin-left: 30px;
