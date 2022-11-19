@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CryptoPass-Accounts</title>
+    <link rel="stylesheet" href="accounts.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <script src="fontawesome.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+	<nav>
+        <ul>
+            <li>
+                <a href="#" class="logo">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4556/4556981.png" alt=""/>
+                    <span class="nav-item">CryptoPass</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="cryptoPass-Accounts.html">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <span class="nav_item">Accounts</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-ban"></i>
+                    <span class="nav_item">Blocked Websites</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <span class="nav_item">Help</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-users"></i>
+                    <span class="nav_item">About Us</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span class="nav_item">Log Out</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="main">
+        <div class="top_nav">
+            <h1>Add Account</h1>
+            <span class="accountCircle">E</span>
+        </div>
+
+        <div class="form-container">
+            <form action="#" class="addAccountForm">
+                <h3>Edit Account</h3>
+                <p>Edit your account information.</p>
+                <hr>
+                <label for="website">Website </label>
+                <input type="url" placeholder="www.example.com" id="website" value="www.example.com"><br>
+                <label for="username"> Username </label>
+                <input type="text" placeholder="example@example.com" id="username" value="username@example.com"><br>
+                <label for="password">Password </label>
+                <input type="password" id="password" value="test123test"> <br>
+                <label for="confirmPassword">Confirm Password </label>
+                <input type="password" id="confirmPassword" value="test123test"><br><br>
+
+                <button type="submit" class="submitButton">Confirm</button>
+
+            </form>
+
+            <a href="cryptoPass-Accounts.html">
+                <buttond class="cancelButton">Cancel</button>
+            </a>
+        </div>
+    </div>
+  </body>
+</html> 
