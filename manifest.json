@@ -10,7 +10,7 @@
     },
 
     "action": {
-      "default_popup": "cryptopass-AddAccountPopup.html"
+      "default_popup": "cryptopass-Popup.html"
     },
 
     "permissions": [

@@ -98,10 +98,11 @@ nav:hover {
 
 .top_nav .accountCircle{
     float: left;
-    margin-top: -40px;
+    margin-top: -30px;
     margin-left: 20px;
     background-color: orange;
     color: #fff;
+    font-size: 16px;
     padding: 12px 18px;
     border-radius: 50%;
 }
@@ -221,8 +222,13 @@ nav:hover {
     height: 400px;
 }
 
+.form-container h3 {
+    font-size: 20px;
+}
+
 .form-container p {
     padding-bottom: 10px;
+    font-size: 16px;
 }
 
 .form-container input {
@@ -236,8 +242,9 @@ nav:hover {
 }
 
 .form-container label {
-    margin-top: 20px;
+    margin-top: 25px;
     display: block;
+    font-size: 16px;
 }
 
 .form-container .submitButton {
@@ -251,6 +258,7 @@ nav:hover {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .form-container .submitButton:hover {
@@ -258,11 +266,11 @@ nav:hover {
 }
 
 .cancelButton {
+    margin-top: 10px;
     padding: 6px 4px 4px 6px;
     font-size: 16px;
     float: right;
 }
-
 
 /* Responsive  Table*/
 

@@ -9,7 +9,7 @@ chrome.tabs.query(
 
         var curl = document.getElementById("curl")
         if (curl) {
-            curl.innerHTML = (url);
+            curl.innerHTML = (domain);
         }
     }
   );
@@ -18,13 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var accP = document.getElementById("accountPage");
     if (accP) {
         accP.addEventListener("click", handler);
-    }
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    var newP = document.getElementById("newPopUp");
-    if (newP) {
-        newP.addEventListener("click", newpop);
     }
 });
 
@@ -46,14 +39,11 @@ function handler(){
     window.open("cryptopass-Accounts.html", '_blank');
 }
 
-function newpop() {
-    window.location.href="popupTest.html";
-}
 
 function addacc() {
-    window.location.href="addAccountPopUp.html";
+    window.location.href="cryptopass-AddAccountPopup.html";
 }
 
 function return2Sender(){
-    window.location.href="popup.html";
+    window.location.href="cryptopass-Popup.html";
 }
