@@ -34,6 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
         back.addEventListener("click", return2Sender);
     }    
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var back = document.getElementById("settingsPage");
+    if (back) {
+        back.addEventListener("click", toSettings);
+    }    
+});
  
 function handler(){
     window.open("cryptopass-Accounts.html", '_blank');
@@ -46,4 +53,8 @@ function addacc() {
 
 function return2Sender(){
     window.location.href="cryptopass-Popup.html";
+}
+
+function toSettings(){
+    window.open("cryptopass-blockedSites.html")
 }
