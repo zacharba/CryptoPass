@@ -41,6 +41,14 @@ document.addEventListener('DOMContentLoaded', function() {
         back.addEventListener("click", toSettings);
     }    
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var template = document.getElementById("templateContent");
+    if (template) {
+        template.addEventListener("click", toTemplate);
+    }    
+});
+
  
 function handler(){
     window.open("cryptopass-Accounts.html", '_blank');
@@ -57,4 +65,8 @@ function return2Sender(){
 
 function toSettings(){
     window.open("cryptopass-blockedSites.html")
+}
+
+function toTemplate(){
+    window.location.href="crpytopass-PopupTemp.html";
 }

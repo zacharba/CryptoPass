@@ -67,3 +67,100 @@ body {
     color: black;
     transition: all 0.3s ease;
 }
+
+.toggleContent {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.toggleContent .fa-solid {
+    font-size: 30px;
+}
+
+.toggleContent button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.toggleContent button:hover {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.toggleContent2 {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.toggleContent2 .fa-solid {
+    font-size: 30px;
+    color: orange;
+}
+
+.toggleContent2 button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.toggleContent2 button:hover {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.accountInfo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.accountInfo p{
+    font-size: 14px;
+    border: 1px solid orange;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.accountInfo .fa-solid {
+    font-size: 20px;
+}
+
+.pencil .fa-solid {
+    color: gray;
+    cursor: pointer;
+}
+
+.shield .fa-solid {
+    color: green;
+    cursor: pointer;
+}
+
+.user .fa-solid {
+    color: gray;
+    cursor: pointer;
+}
+
+.key .fa-solid {
+    color: gray;
+    cursor: pointer;
+}
+
+.trash .fa-solid {
+    color: rgb(243, 83, 83);
+    cursor: pointer;
+}
+
+.linesep hr {
+    transform: translateY(10px);
+    border: 1px solid lightgray;
+}
+
+.shield2 .fa-solid {
+    color: yellow;
+    cursor: pointer;
+}
