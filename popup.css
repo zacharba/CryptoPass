@@ -71,6 +71,7 @@ body {
 .toggleContent {
     margin-left: 40px;
     margin-top: 5px;
+    background: none;
 }
 
 .toggleContent .fa-solid {

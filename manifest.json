@@ -10,7 +10,8 @@
     },
 
     "action": {
-      "default_popup": "cryptopass-Popup.html"
+      "default_popup": "cryptopass-Popup.html",
+      "default_icon": "cryptopass.png"
     },
 
     "permissions": [
